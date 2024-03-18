@@ -1,0 +1,20 @@
+.area{
+	.content{
+		.list-cell{
+			display: flex;
+			align-items: center;
+			padding: 16rpx 20rpx;
+			border-bottom: 1px solid black;
+			color: white;
+			background-color: #3e3e3e;
+			>image{
+				width: 100rpx;
+				height: 100rpx;
+				margin-right: 10rpx;
+			}
+			>view{
+				
+			}
+		}
+	}
+}

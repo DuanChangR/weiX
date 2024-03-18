@@ -1,0 +1,21 @@
+.header-title{
+	width: 100vw;
+	height: 88rpx;
+	.title{
+		background-color: black;
+		color: white;
+		text-align: center;
+		font-size: 36rpx;
+		line-height: 88rpx;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 88rpx;
+		z-index: 999;
+	}
+	>view:last-child{
+		width: 100vw;
+		height: 88rpx;
+	}
+}

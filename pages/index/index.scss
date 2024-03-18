@@ -1,0 +1,51 @@
+.area{
+	.content{
+		width: 100vw;
+		box-sizing: border-box;
+		.content-item{
+			display: flex;
+			justify-content: space-between;
+			background-color: #3e3e3e;
+			padding: 20rpx;
+			color: white;
+			width: 100%;
+			box-sizing: border-box;
+			border-bottom: 1rpx solid black;
+			.item-left{
+				display: flex;
+				width: calc(100% - 110rpx);
+				>image{
+					width: 100rpx;
+					height: 100rpx;
+					margin-right: 16rpx;
+				}
+				>view{
+					display: flex;
+					flex-direction: column;
+					justify-content: space-around;
+					width: calc(100% - 116rpx);
+					>view:last-child{
+						width: 100%;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+					}
+				}
+			}
+			.item-right{
+				width: 80rpx;
+				display: flex;
+				flex-direction: column;
+				justify-content: left;
+				align-items: flex-end;
+				flex-shrink: 0;
+				margin-left: 30rpx;
+				>image{
+					height: 30rpx;
+					width: 30rpx;
+					margin-top: 20rpx;
+				}
+			}
+		}
+	}
+}
